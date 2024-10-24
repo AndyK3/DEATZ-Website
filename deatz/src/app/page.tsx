@@ -1,6 +1,7 @@
 // src/MainPage.js
 import React from 'react';
 import Navbar from '../components/navbar'; 
+import Footer from '../components/footer';
 
 const MainPage = () => {
   return (
@@ -25,11 +26,7 @@ const MainPage = () => {
         </section>
       </main>
 
-      <footer className="bg-gray-800 text-white py-6">
-        <div className="container mx-auto text-center">
-          <p>&copy; 2024 DEATZ. All rights reserved.</p>
-        </div>
-      </footer>
+      <Footer /> 
     </div>
   );
 };
