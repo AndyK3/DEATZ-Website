@@ -19,7 +19,7 @@ const MainPage = () => {
       <main className="flex-grow">
         <section className="relative pb-32">
           <div className="px-3 flex flex-row justify-center">
-            <div className="px-14 pt-32 max-w-2/3">
+            <div className="px-14 pt-32 max-w-2/3 text-gray-800">
               <h1 className="text-9xl uppercase font-semibold tracking-tighter">Ongoing Food Deals.</h1>
               <div className="pt-16 flex flex-row justify-between">
                 <p className="w-1/3 font-semibold uppercase">DEATZ</p>
