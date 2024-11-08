@@ -1,8 +1,18 @@
-export default function About() {
-    return (
-      <div>
+// src/About.js
+import React from 'react';
+import Navbar from '../../components/navbar';
+import Footer from '../../components/footer';
+
+
+const About = () => {
+  return(
+    <div>
+      <Navbar />
         <h1>About Page</h1>
-        <p>This is the About page of your Next.js app.</p>
-      </div>
-    );
-  }
+      <Footer />
+    </div>
+  )
+}
+
+
+export default About;
