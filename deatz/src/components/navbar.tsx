@@ -15,7 +15,7 @@ const Navbar = () => {
           <a href="/deals" className="text-lg hover:opacity-80 transition-opacity px-4">Deals</a>
         </nav>
         <div className="flex items-center">
-          <a href="/signin" className="bg-white text-[#5B1F1F] font-semibold rounded-full px-6 py-2 hover:bg-gray-200 transition-all">
+          <a href="/login" className="bg-white text-[#5B1F1F] font-semibold rounded-full px-6 py-2 hover:bg-gray-200 transition-all">
             Log In
           </a>
         </div>
