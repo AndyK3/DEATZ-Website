@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <header className="bg-[#fffaf0] text-[#65000b] pt-6 pb-4">
       <div className="container mx-auto flex items-center justify-between px-6">
-        <h1 className="text-3xl font-extrabold tracking-widest">DEATZ</h1>
+        <a href="/" className="text-3xl font-extrabold tracking-widest">DEATZ</a>
         <nav className="flex items-center mx-auto">
           <a href="/" className="text-lg hover:opacity-80 transition-opacity px-4">Home</a>
           <span className="border-l border-gray-400 h-4 mx-2"></span>
