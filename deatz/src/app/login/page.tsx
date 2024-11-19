@@ -6,7 +6,7 @@ const Login = () => {
   return (
     <div className="flex flex-col min-h-screen bg-[#fffaf0] text-[#65000b]">
       <Navbar />
-      <main className="flex-grow items-start justify-center px-4 pt-24">
+      <main className="flex-grow items-start justify-center px-4">
         <div className="min-h-screen flex items-start justify-center">
           <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md mt-16">
             <h2 className="text-2xl font-bold text-center">Welcome back!</h2>
